@@ -4,6 +4,27 @@
     margin: 0px;
 }
 
+html {
+    height: 100%;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100%;
+
+    display: flex;
+    flex-direction: column;
+    position: relative;
+
+    padding-bottom: 10rem;
+
+    box-sizing: inherit;
+}
+
+main {
+    padding-top: 1rem;
+}
+
 /* Establece el color de todos los textos */
 body, a {
     color: #333333;
@@ -37,8 +58,7 @@ a {
 }
 
 @media only screen and (max-width: 992px) {
-    .container-fluid .navbar-collapse li,
-    .container .row li {
+    .container-fluid .navbar-collapse li {
         text-align: center;
     }
 }
@@ -88,4 +108,23 @@ header nav ul li {
     padding-left: 10px;
     border-left: 2px solid;
     border-color: #007bff;
+}
+
+.login-form {
+    display: grid;
+    grid-gap: 10px;
+}
+
+.input-group {
+    display: flex;
+    flex-direction: column;
+}
+
+footer {
+    padding: 35px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    margin-top: auto;
+    justify-content: center
 }
