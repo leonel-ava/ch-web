@@ -1,0 +1,91 @@
+/* Establece la fuente principal del sitio y remueve el margen por defecto */
+* {
+    font-family: 'Raleway', sans-serif;
+    margin: 0px;
+}
+
+/* Establece el color de todos los textos */
+body, a {
+    color: #333333;
+}
+
+/* Remueve todos los puntitos de lista del sitio */
+ul, li {
+    list-style-type: none;
+}
+
+/* Remueve el subrayado en la etiqueta ancla para los enlaces del sitio */
+a {
+    text-decoration: none;
+}
+
+.reliable-color, .navbar .navbar-selected {
+    color: #E6CA85;
+}
+
+.navbar {
+    padding-inline: 10px;
+    background-color: whitesmoke;
+}
+
+.navbar .navbar-home-button {
+    font-size: 40px;
+}
+
+.navbar .navbar-buttons {
+    font-size: 20px;
+}
+
+@media only screen and (max-width: 992px) {
+    .container-fluid .navbar-collapse li,
+    .container .row li {
+        text-align: center;
+    }
+}
+
+header nav ul li {
+    margin: 8px;
+}
+
+.gold-background {
+    background-color: #E6CA85;
+}
+
+.green-background {
+    background-color: #8FE381;
+}
+
+.rounded-button {
+    padding: 8px 15px;
+    border: 1px;
+    border-radius: 10px;
+    color: white;
+}
+
+/* Diseño general del contenedor de texto */
+.text-container {
+    max-width: 70%;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: whitesmoke;
+}
+
+.text-container h1, p {
+    text-align: center;
+}
+
+.faq-item {
+    margin-block: 20px;
+}
+
+.faq-question {
+    font-weight: bold;
+    color: #007bff;
+}
+
+.faq-answer {
+    margin-top: 10px;
+    padding-left: 10px;
+    border-left: 2px solid;
+    border-color: #007bff;
+}
