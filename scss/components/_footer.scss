@@ -1,0 +1,26 @@
+html {
+    height: 100%;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100%;
+
+    display: flex;
+    flex-direction: column;
+    position: relative;
+
+    padding-bottom: 6.0rem;
+
+    box-sizing: inherit;
+}
+
+footer {
+    padding: 35px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    margin-top: auto;
+    justify-content: center;
+    text-align: center;
+}

@@ -1,0 +1,14 @@
+/* Establece la fuente principal del sitio y remueve el margen por defecto */
+* {
+    font-family: 'Raleway', sans-serif;
+    margin: 0px;
+}
+
+body, a {
+    text-decoration: none;
+}
+
+/* Remueve todos los puntitos de lista del sitio */
+ul, li {
+    list-style-type: none;
+}

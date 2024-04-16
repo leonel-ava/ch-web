@@ -1,0 +1,22 @@
+@import "base/extend";
+@import "base/mixin";
+
+/* Establece el color de todos los textos */
+body, a {
+    color: $font-primary;
+    text-decoration: none;
+}
+
+.login-form-wrapper {
+    @include content-wrapper(70%);
+}
+
+.login-form {
+    display: grid;
+    grid-gap: 10px;
+}
+
+.input-group {
+    @extend %flex;
+    flex-direction: column;
+}

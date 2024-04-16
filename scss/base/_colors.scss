@@ -1,0 +1,20 @@
+$primary-color: #E6CA85;
+
+$font-primary: #333333;
+
+.reliable-color {
+    color: $primary-color;
+}
+
+.gold-background {
+    background-color: $primary-color;
+}
+
+.green-background {
+    background-color: #8FE381;
+}
+
+/* Establece el color de todos los textos */
+body, a {
+    color: $font-primary;
+}

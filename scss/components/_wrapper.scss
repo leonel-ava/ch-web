@@ -1,0 +1,6 @@
+@import "../base/mixin";
+
+/* Diseño general del contenedor de texto */
+.content-wrapper {
+    @include content-wrapper(70%);
+}

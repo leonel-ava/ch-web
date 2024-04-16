@@ -1,0 +1,10 @@
+@mixin content-wrapper($max-width) {
+    max-width: $max-width;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: whitesmoke;
+
+    h1, p {
+        text-align: center;
+    }
+}

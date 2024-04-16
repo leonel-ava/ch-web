@@ -1,130 +1,150 @@
+@charset "UTF-8";
 /* Establece la fuente principal del sitio y remueve el margen por defecto */
 * {
-    font-family: 'Raleway', sans-serif;
-    margin: 0px;
+  font-family: "Raleway", sans-serif;
+  margin: 0px;
 }
 
-html {
-    height: 100%;
-    box-sizing: border-box;
-}
-
-body {
-    min-height: 100%;
-
-    display: flex;
-    flex-direction: column;
-    position: relative;
-
-    padding-bottom: 10rem;
-
-    box-sizing: inherit;
-}
-
-main {
-    padding-top: 1rem;
-}
-
-/* Establece el color de todos los textos */
 body, a {
-    color: #333333;
+  text-decoration: none;
 }
 
 /* Remueve todos los puntitos de lista del sitio */
 ul, li {
-    list-style-type: none;
+  list-style-type: none;
 }
 
-/* Remueve el subrayado en la etiqueta ancla para los enlaces del sitio */
-a {
-    text-decoration: none;
-}
-
-.reliable-color, .navbar .navbar-selected {
-    color: #E6CA85;
-}
-
-.navbar {
-    padding-inline: 10px;
-    background-color: whitesmoke;
-}
-
-.navbar .navbar-home-button {
-    font-size: 40px;
-}
-
-.navbar .navbar-buttons {
-    font-size: 20px;
-}
-
-@media only screen and (max-width: 992px) {
-    .container-fluid .navbar-collapse li {
-        text-align: center;
-    }
-}
-
-header nav ul li {
-    margin: 8px;
+.reliable-color {
+  color: #E6CA85;
 }
 
 .gold-background {
-    background-color: #E6CA85;
+  background-color: #E6CA85;
 }
 
 .green-background {
-    background-color: #8FE381;
+  background-color: #8FE381;
 }
 
-.rounded-button {
-    padding: 8px 15px;
-    border: 1px;
-    border-radius: 10px;
-    color: white;
-}
-
-/* Diseño general del contenedor de texto */
-.text-container {
-    max-width: 70%;
-    margin: 20px auto;
-    padding: 20px;
-    background-color: whitesmoke;
-}
-
-.text-container h1, p {
-    text-align: center;
-}
-
-.faq-item {
-    margin-block: 20px;
-}
-
-.faq-question {
-    font-weight: bold;
-    color: #007bff;
-}
-
-.faq-answer {
-    margin-top: 10px;
-    padding-left: 10px;
-    border-left: 2px solid;
-    border-color: #007bff;
-}
-
-.login-form {
-    display: grid;
-    grid-gap: 10px;
+/* Establece el color de todos los textos */
+body, a {
+  color: #333333;
 }
 
 .input-group {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  justify-content: center;
+}
+
+.navbar {
+  padding-inline: 10px;
+  background-color: whitesmoke;
+}
+.navbar .navbar-selected {
+  color: #E6CA85;
+}
+.navbar .navbar-home-button {
+  font-size: 40px;
+}
+.navbar .navbar-buttons {
+  font-size: 20px;
+}
+
+@media only screen and (max-width: 992px) {
+  .container-fluid .navbar-collapse li {
+    text-align: center;
+  }
+}
+header nav ul li {
+  margin: 8px;
+}
+
+.rounded-button {
+  padding: 8px 15px;
+  border: 1px;
+  border-radius: 10px;
+  color: white;
+}
+
+html {
+  height: 100%;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  padding-bottom: 6rem;
+  box-sizing: inherit;
 }
 
 footer {
-    padding: 35px;
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    margin-top: auto;
-    justify-content: center
+  padding: 35px;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  margin-top: auto;
+  justify-content: center;
+  text-align: center;
 }
+
+/* Diseño general del contenedor de texto */
+.content-wrapper {
+  max-width: 70%;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: whitesmoke;
+}
+.content-wrapper h1, .content-wrapper p {
+  text-align: center;
+}
+
+.faq-item {
+  margin-block: 20px;
+}
+
+.faq-question {
+  font-weight: bold;
+  color: #007bff;
+}
+
+.faq-answer {
+  margin-top: 10px;
+  padding-left: 10px;
+  border-left: 2px solid;
+  border-color: #007bff;
+}
+
+.input-group {
+  display: flex;
+  justify-content: center;
+}
+
+/* Establece el color de todos los textos */
+body, a {
+  color: #333333;
+  text-decoration: none;
+}
+
+.login-form-wrapper {
+  max-width: 70%;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: whitesmoke;
+}
+.login-form-wrapper h1, .login-form-wrapper p {
+  text-align: center;
+}
+
+.login-form {
+  display: grid;
+  grid-gap: 10px;
+}
+
+.input-group {
+  flex-direction: column;
+}
+
+/*# sourceMappingURL=style.css.map */
