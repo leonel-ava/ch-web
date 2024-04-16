@@ -133,6 +133,7 @@ body, a {
   margin: 20px auto;
   padding: 20px;
   background-color: whitesmoke;
+  width: 30%;
 }
 .login-form-wrapper h1, .login-form-wrapper p {
   text-align: center;
