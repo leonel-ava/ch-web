@@ -9,7 +9,10 @@ body, a {
 
 .login-form-wrapper {
     @include content-wrapper(70%);
-    width: 30%;
+
+    @media only screen and (min-width: 992px) {
+        width: 25%;
+    }
 }
 
 .login-form {

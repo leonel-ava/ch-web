@@ -133,10 +133,14 @@ body, a {
   margin: 20px auto;
   padding: 20px;
   background-color: whitesmoke;
-  width: 30%;
 }
 .login-form-wrapper h1, .login-form-wrapper p {
   text-align: center;
+}
+@media only screen and (min-width: 992px) {
+  .login-form-wrapper {
+    width: 25%;
+  }
 }
 
 .login-form {
