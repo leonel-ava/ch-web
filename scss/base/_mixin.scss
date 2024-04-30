@@ -8,3 +8,13 @@
         text-align: center;
     }
 }
+
+@mixin flexible-transition($width, $left, $right) {
+    width: $width;
+    left: $left;
+    right: $right;
+    
+    transition-property: "left, right";
+    transition-duration: 0.3s;
+    transition-timing-function: ease-out;
+}

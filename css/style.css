@@ -49,6 +49,33 @@ body, a {
 .navbar .navbar-buttons {
   font-size: 20px;
 }
+@media only screen and (min-width: 993px) {
+  .navbar .nav-item {
+    display: inline-block;
+    position: relative;
+  }
+  .navbar .nav-item .underline-from-center::after {
+    content: "";
+    position: absolute;
+    height: 2px;
+    bottom: 0;
+    background: #333333;
+    width: 0;
+    left: 51%;
+    right: 51%;
+    transition-property: "left, right";
+    transition-duration: 0.3s;
+    transition-timing-function: ease-out;
+  }
+  .navbar .nav-item .underline-from-center:hover::after {
+    width: 100%;
+    left: 0;
+    right: 0;
+    transition-property: "left, right";
+    transition-duration: 0.3s;
+    transition-timing-function: ease-out;
+  }
+}
 
 @media only screen and (max-width: 992px) {
   .container-fluid .navbar-collapse li {
